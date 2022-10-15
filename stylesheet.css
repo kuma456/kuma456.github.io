@@ -1,0 +1,90 @@
+.mainvisual{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mainvisual img{
+  width: 45%;
+  margin: 40px 0px 40px 40px;
+}
+
+.maintitle{
+  width: 45%;
+  margin: 40px 40px 40px 0px;
+}
+
+.zairyou{
+  margin-top: 40px;
+  border-bottom: 1px solid gray;
+}
+.mainvisual dt{
+  margin-bottom: 0.5em;
+  float: left;
+}
+.mainvisual dd{
+  margin-bottom: 0.5em;
+  text-align: right;
+  border-bottom: 1px dotted gray;
+  margin-left: 0;
+}
+
+.mainvisual dl{
+  justify-content: space-between;
+}
+
+.mainvisual .mathot{
+  margin-top: 50px;
+}
+
+.mainvisual ol{
+  text-align: left;
+  padding-left: 20px;
+  
+}
+.mainvisual li{
+  margin-bottom: 0.5em;
+}
+
+.mathot{
+  border-bottom: 1px dotted gray;
+}
+
+.maintitleol{
+  margin-top:20px;
+}
+
+.maintitle li{
+  border-bottom: 1px dotted gray;
+  background-color: pink;
+}
+
+
+.tab{
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  line-height: 50px;
+  border: 1px solid #333;
+}
+
+.tab a{
+  display: block;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.nav a{
+  font-size: 10px;
+  padding: 8px;
+}
+
+.foot{
+  font-size: 10px;
+  margin: 10px auto 50px auto;
+}
